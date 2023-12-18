@@ -1,0 +1,18 @@
+.feedback {
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 300px;
+  height: 70px;
+  font-family: monospace;
+  font-size: 40px;
+  background-color: rgb(70, 190, 106);
+}
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
