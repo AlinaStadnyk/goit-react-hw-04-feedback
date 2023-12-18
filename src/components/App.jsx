@@ -3,7 +3,7 @@ import React from 'react';
 import Section from './Section/Section';
 import Feedback from './Feedback/Feedback';
 import Notification from './Notifications/Notification';
-import Statistics from './Notifications/Statistics/Statistics';
+import Statistics from './Statistics/Statistics';
 export const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
